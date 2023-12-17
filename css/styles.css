@@ -626,6 +626,10 @@ img {
 
 }
 
+.portfolio-filter-button:hover, .portfolio-filter-button:focus {
+    transform: translateY(0%)
+}
+
 /* Styling the custom header class */
 .custom-header {
     font-weight: 500;
