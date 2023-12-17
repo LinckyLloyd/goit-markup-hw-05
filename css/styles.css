@@ -55,13 +55,16 @@ img {
 }
 
 .active::after{
-    content: '';
-    position: absolute;
+    content: " ";
+    position: relative;
     left: 0;
     bottom: -1px;
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
+    /* from teach emerson */
+    display: block;
+    top: 20px;
 }
 
 .navliststyle-header{
@@ -692,7 +695,8 @@ img {
     border: none;
 }
 
-.modal-button-close:focus {background-color: #404bbf;
+.modal-button-close:focus {
+    background-color: #404bbf;
     border: none;}
 
 .modal-close-button-svg{
