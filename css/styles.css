@@ -725,7 +725,10 @@ img {
 
 }
 
-.modal-button-close:hover,
+.modal-button-close:hover {
+    background-color: var(--ocean);
+    border: none;    
+}
 .modal-button-close:focus {
         background-color: var(--ocean);
         border: none;
@@ -737,7 +740,11 @@ img {
 
 }
 
-.modal-close-button-svg:hover, .modal-close-button-svg:focus {
+.modal-close-button-svg:hover{
+    fill: var(--white);
+
+}
+.modal-close-button-svg:focus {
     fill: var(--white);
 
 }
